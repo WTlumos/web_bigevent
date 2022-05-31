@@ -61,3 +61,14 @@ $("#btnLogout").on("click",function(){
         layer.close(index);
     });
 });
+
+
+// 顶部个人中心下拉菜单
+$("#top-user").on("click","dd",function(e){
+    e.preventDefault();
+    // console.log($("#nav-user dd").length);
+    var dd = $("#nav-user dd").eq($(this).index());
+    dd.children("a").children("i").click();
+    dd.parent().parent().addClass("layui-nav-itemed")
+    .siblings().removeClass("layui-nav-itemed");
+});
