@@ -1,0 +1,68 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 15px;
+    background-color: #f2f3f5;
+}
+
+.row1{
+    overflow: hidden;
+}
+
+/* 设置裁剪区域的样式 */
+.cropper-box {
+    float: left;
+    width: 600px;
+    height: 300px;
+    /* background-color: cyan; */
+    overflow: hidden;
+}
+
+/* 设置 preview-box 区域的的样式 */
+.preview-box {
+    float: right;
+}
+
+/* 设置第一个预览区域的样式 */
+.w200 {
+    width: 200px;
+    height: 100px;
+    /* background-color: gray; */
+}
+
+/* 设置预览区域下方文本的样式 */
+.size {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+  
+/* 设置 img-preview 区域的样式 */
+.img-preview {
+    overflow: hidden;
+}
+
+  
+/* 设置按钮行的样式 */
+.row2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* 上传文件按钮 */
+#file{
+    display: none;
+}
+
+/* 裁剪图片div */
+#img-box{
+    width: 70%;
+    position: relative;
+    margin-bottom: 20px;
+}
