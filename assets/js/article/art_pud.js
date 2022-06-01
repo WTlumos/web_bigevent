@@ -190,7 +190,7 @@ function getArticle(id){
                 // 销毁旧的裁剪区域
                 .cropper('destroy') 
                 // 重新设置图片路径     
-                .attr('src', "http://127.0.0.1:3007"+res.data.cover_img)  
+                .attr('src', "https://www.slikeglue.com:3007"+res.data.cover_img)  
                 // 重新初始化裁剪区域
                 .cropper(options);  
         }
