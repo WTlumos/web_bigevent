@@ -6,7 +6,7 @@ const connection = db.createConnection({
     host: "127.0.0.1",
     user: "root",
     port: "3306",
-    password: "mysql123//",
+    password: "密码",
     database: "my_db_01"
 })
 connection.connect();
