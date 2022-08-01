@@ -76,8 +76,8 @@ app.use(function (err, req, res, next) {
 //     key: fs.readFileSync('./ssl/xx.key'),
 //     cert: fs.readFileSync('./ssl/xx.pem')
 // }
-// https.createServer(option,app).listen(3007,()=>{
-//     console.log("api server running at post 3007");
+// https.createServer(option,app).listen(8010,()=>{
+//     console.log("api server running at post 8010");
 // });
 
 // 调用listen方法，指定端口号并启动web服务器

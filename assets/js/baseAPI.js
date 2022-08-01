@@ -10,7 +10,7 @@ $.ajaxPrefilter(function(options) {
     }
     // 在发起真正的 Ajax 请求之前，统一拼接请求的根路径
     // console.log(options);
-    options.url = 'https://www.slikeglue.com:3007'+options.url;
+    options.url = 'https://www.slikeglue.com:8010'+options.url;
 
     // 全局统一挂载 complete 回调函数
     // 不论成功还是失败，最终都会调用 complete 回调函数
